@@ -192,7 +192,7 @@ return [
     'classes_content_wrapper' => '',
     'classes_content_header' => '',
     'classes_content' => '',
-    'classes_sidebar' => 'sidebar-dark-primary elevation-4',
+    'classes_sidebar' => 'elevation-4',
     'classes_sidebar_nav' => '',
     'classes_topnav' => 'navbar-white navbar-light',
     'classes_topnav_nav' => 'navbar-expand',
@@ -322,17 +322,17 @@ return [
         [
             'text' => 'Fasilitas Kesehatan',
             'url'  => '/',
-            'icon' => 'fas fa-fw fa-lock',
+            'icon' => 'fas fa-fw  fa-hospital',
         ],
         [
             'text' => 'Tenaga Kesehatan',
             'url'  => '/worker',
-            'icon' => 'fas fa-fw fa-lock',
+            'icon' => 'fas fa-fw fa-user-md',
         ],
         [
             'text' => 'Populasi',
             'url'  => '/population',
-            'icon' => 'fas fa-fw fa-lock',
+            'icon' => 'fas fa-fw fa-users',
         ],
         ['header' => 'Tabel'],
         [
@@ -342,41 +342,41 @@ return [
         ],
         // [
         //     // 'text'    => 'multilevel',
-            // 'icon'    => 'fas fa-fw fa-share',
-            // 'submenu' => [
-            //     [
-            //         'text' => 'level_one',
-            //         'url'  => '#',
-            //     ],
-            //     [
-            //         'text'    => 'level_one',
-            //         'url'     => '#',
-            //         'submenu' => [
-            //             [
-            //                 'text' => 'level_two',
-            //                 'url'  => '#',
-            //             ],
-            //             [
-            //                 'text'    => 'level_two',
-            //                 'url'     => '#',
-            //                 'submenu' => [
-            //                     [
-            //                         'text' => 'level_three',
-            //                         'url'  => '#',
-            //                     ],
-            //                     [
-            //                         'text' => 'level_three',
-            //                         'url'  => '#',
-            //                     ],
-            //                 ],
-            //             ],
-            //         ],
-            //     ],
-                // [
-                //     'text' => 'level_one',
-                //     'url'  => '#',
-                // ],
-            // ],
+        // 'icon'    => 'fas fa-fw fa-share',
+        // 'submenu' => [
+        //     [
+        //         'text' => 'level_one',
+        //         'url'  => '#',
+        //     ],
+        //     [
+        //         'text'    => 'level_one',
+        //         'url'     => '#',
+        //         'submenu' => [
+        //             [
+        //                 'text' => 'level_two',
+        //                 'url'  => '#',
+        //             ],
+        //             [
+        //                 'text'    => 'level_two',
+        //                 'url'     => '#',
+        //                 'submenu' => [
+        //                     [
+        //                         'text' => 'level_three',
+        //                         'url'  => '#',
+        //                     ],
+        //                     [
+        //                         'text' => 'level_three',
+        //                         'url'  => '#',
+        //                     ],
+        //                 ],
+        //             ],
+        //         ],
+        //     ],
+        // [
+        //     'text' => 'level_one',
+        //     'url'  => '#',
+        // ],
+        // ],
         // ],
         // ['header' => 'labels'],
         // [

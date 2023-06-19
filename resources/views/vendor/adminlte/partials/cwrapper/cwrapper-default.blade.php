@@ -1,13 +1,13 @@
 @inject('layoutHelper', 'JeroenNoten\LaravelAdminLte\Helpers\LayoutHelper')
 
-@if($layoutHelper->isLayoutTopnavEnabled())
-    @php( $def_container_class = 'container' )
+@if ($layoutHelper->isLayoutTopnavEnabled())
+    @php($def_container_class = 'container')
 @else
-    @php( $def_container_class = 'container-fluid' )
+    @php($def_container_class = 'container-fluid')
 @endif
 
 {{-- Default Content Wrapper --}}
-<div class="content-wrapper {{ config('adminlte.classes_content_wrapper', '') }}">
+<div class="content-wrapper {{ config('adminlte.classes_content_wrapper', '') }}" style="background-color: #F3ECB0">
 
     {{-- Content Header --}}
     @hasSection('content_header')
